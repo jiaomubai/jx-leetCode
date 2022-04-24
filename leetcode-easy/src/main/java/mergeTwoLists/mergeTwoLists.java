@@ -1,6 +1,8 @@
 package mergeTwoLists;
 
-import static leetCode.easy.mergeTwoLists.ListNode.*;
+import static mergeTwoLists.ListNode.arrayToListNode;
+import static mergeTwoLists.ListNode.display;
+import static mergeTwoLists.ListNode.getSize;
 
 /**
  * @ClassName: mergeTwoLists
