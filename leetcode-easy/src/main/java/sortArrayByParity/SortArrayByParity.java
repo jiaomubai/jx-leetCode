@@ -4,7 +4,7 @@ package sortArrayByParity;
  * @ClassName: SortArrayByParity
  * @Author: jiaoxian
  * @Date: 2022/4/28 14:51
- * @Description: LeetCode 每日一题之905：按奇偶排序数组
+ * @Description: leetCode-905：按奇偶排序数组
  */
 public class SortArrayByParity {
 
