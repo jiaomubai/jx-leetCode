@@ -1,6 +1,6 @@
 package titleToNumber;
 
-import lombok.extern.slf4j.Slf4j;
+//import lombok.extern.slf4j.Slf4j;
 
 /**
  * @ClassName: TitleToNumber
@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * @Date: 2022/3/23 10:55
  * @Description:
  */
-@Slf4j
+//@Slf4j
 public class TitleToNumber {
 
     public static int titleToNumber(String columnTitle) {
@@ -23,7 +23,7 @@ public class TitleToNumber {
     public static void main(String[] args) {
         String columnTitle = "ABCD";
         int result = titleToNumber(columnTitle);
-        log.info("result = {}", result);
+//        log.info("result = {}", result);
     }
 
 

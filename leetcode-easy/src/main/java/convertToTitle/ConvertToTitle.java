@@ -1,7 +1,7 @@
 package convertToTitle;
 
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.util.StopWatch;
+//import lombok.extern.slf4j.Slf4j;
+//import org.springframework.util.StopWatch;
 
 /**
  * @ClassName: ConvertToTitle
@@ -9,7 +9,7 @@ import org.springframework.util.StopWatch;
  * @Date: 2022/3/23 12:15
  * @Description:
  */
-@Slf4j
+//@Slf4j
 public class ConvertToTitle {
 
     public static String convertToTitle(int columnNumber) {
@@ -23,12 +23,12 @@ public class ConvertToTitle {
     }
 
     public static void main(String[] args) {
-        StopWatch stopWatch = new StopWatch();
-        stopWatch.start();
+//        StopWatch stopWatch = new StopWatch();
+//        stopWatch.start();
         int columnNumber = 701;
         String result = convertToTitle(columnNumber);
-        stopWatch.stop();
-        log.info("result = {}, 耗时:{}ms", result, stopWatch.getTotalTimeMillis());
+//        stopWatch.stop();
+//        log.info("result = {}, 耗时:{}ms", result, stopWatch.getTotalTimeMillis());
     }
 
 }
