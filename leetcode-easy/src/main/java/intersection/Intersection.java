@@ -1,6 +1,6 @@
 package intersection;
 
-import common.ArrayDisplayUtil;
+import util.ArrayDisplayUtil;
 
 import java.util.HashMap;
 import java.util.HashSet;

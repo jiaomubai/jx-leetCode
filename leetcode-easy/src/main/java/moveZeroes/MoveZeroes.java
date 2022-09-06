@@ -1,6 +1,6 @@
 package moveZeroes;
 
-import common.ArrayDisplayUtil;
+import util.ArrayDisplayUtil;
 
 /**
  * @ClassName: MoveZeroes

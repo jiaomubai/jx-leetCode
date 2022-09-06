@@ -1,7 +1,7 @@
 package majorityElement;
 
 
-//import lombok.extern.slf4j.Slf4j;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Map;
  * @Date: 2022/3/22 16:38
  * @Description:
  */
-//@Slf4j
+@Slf4j
 public class MajorityElement {
 
     public static int majorityElement(int[] nums) {
@@ -35,7 +35,7 @@ public class MajorityElement {
     }
 
     public static void main(String[] args) {
-//        log.info("");
+        log.info("");
         int[] intArray = {3, 2, 3};
         int result = majorityElement(intArray);
         System.out.println(result);

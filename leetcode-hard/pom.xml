@@ -38,6 +38,11 @@
             <artifactId>spring-core</artifactId>
             <version>5.3.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
     </dependencies>
 
 

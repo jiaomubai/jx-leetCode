@@ -1,6 +1,6 @@
 package intersect;
 
-import common.ArrayDisplayUtil;
+import util.ArrayDisplayUtil;
 
 import java.util.ArrayList;
 import java.util.List;
