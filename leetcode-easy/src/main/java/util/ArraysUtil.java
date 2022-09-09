@@ -10,12 +10,30 @@ public class ArraysUtil {
 
     /**
      * @Author jiaoxian
-     * @Description displayIntArray 打印int类型数组
+     * @Description displayIntArray 打印基本类型(int)数组
      * @Date 2022/9/6 17:52
      * @param nums: 待打印数组
      * @return void
      **/
     public static void displayIntArray(int[] nums) {
+        if (nums.length < 1) {
+            return;
+        }
+        Object[] objectNums = new Object[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            objectNums[i] = nums[i];
+        }
+        commonDisplay(objectNums);
+    }
+
+    /**
+     * @Author jiaoxian
+     * @Description displayCharArray 打印基本类型(char)数组
+     * @Date 2022/9/6 17:52
+     * @param nums: 待打印数组
+     * @return void
+     **/
+    public static void displayCharArray(char[] nums) {
         if (nums.length < 1) {
             return;
         }

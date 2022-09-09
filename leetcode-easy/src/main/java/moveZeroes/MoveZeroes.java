@@ -1,6 +1,7 @@
 package moveZeroes;
 
-import util.ArrayDisplayUtil;
+
+import util.ArraysUtil;
 
 /**
  * @ClassName: MoveZeroes
@@ -47,9 +48,9 @@ public class MoveZeroes {
     public static void main(String[] args) {
         int[] nums = {1,0,0,3,12};
         moveZeroes1(nums);
-        ArrayDisplayUtil.arrayDisplay(nums);
+        ArraysUtil.displayIntArray(nums);
         moveZeroes2(nums);
-        ArrayDisplayUtil.arrayDisplay(nums);
+        ArraysUtil.displayIntArray(nums);
     }
 
 }

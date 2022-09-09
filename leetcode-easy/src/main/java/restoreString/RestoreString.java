@@ -11,9 +11,8 @@ import util.ArraysUtil;
 public class RestoreString {
 
     public String restoreString(String s, int[] indices) {
-        StringBuffer result = new StringBuffer("");
         if (s.length() != indices.length) {
-            return result.toString();
+            return "";
         }
         Character[] charArray = new Character[indices.length];
         for (int i = 0; i < indices.length; i++) {
