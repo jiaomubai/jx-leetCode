@@ -1,14 +1,12 @@
 package mergeTwoLists;
 
-import static mergeTwoLists.ListNode.arrayToListNode;
-import static mergeTwoLists.ListNode.display;
-import static mergeTwoLists.ListNode.getSize;
+import util.ListNode;
 
 /**
  * @ClassName: mergeTwoLists
  * @Author: jiaoxian
  * @Date: 2021/9/23 14:46
- * @Description:
+ * @Description: leetCode-21: 合并两个有序链表
  */
 public class mergeTwoLists {
 
@@ -70,15 +68,13 @@ public class mergeTwoLists {
 
     public static void main(String[] args) {
         int[] arrays1 = {1, 2, 3};
-        ListNode listNode1 = arrayToListNode(arrays1);
-        System.out.println(getSize(listNode1));
-        display(listNode1);
+        ListNode listNode1 = ListNode.createList(arrays1);
+        ListNode.displayList(listNode1);
         int[] arrays2 = {2, 3, 4};
-        ListNode listNode2 = arrayToListNode(arrays2);
-        System.out.println(getSize(listNode2));
-        display(listNode2);
-        ListNode listNode3 = mergeTwoLists2(listNode1, listNode2);
-        display(listNode3);
+        ListNode listNode2 = ListNode.createList(arrays2);
+        ListNode.displayList(listNode2);
+        ListNode listNode3 = mergeTwoLists(listNode1, listNode2);
+        ListNode.displayList(listNode3);
     }
 
 }
