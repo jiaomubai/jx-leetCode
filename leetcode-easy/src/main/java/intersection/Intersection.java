@@ -1,6 +1,6 @@
 package intersection;
 
-import common.ArrayDisplayUtil;
+import util.ArraysUtil;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -42,7 +42,7 @@ public class Intersection {
         int[] nums1 = {1, 2, 3, 4};
         int[] nums2 = {4, 3, 2, 1, 5};
         int[] result = intersection(nums1, nums2);
-        ArrayDisplayUtil.arrayDisplay(result);
+        ArraysUtil.displayIntArray(result);
     }
 
 }

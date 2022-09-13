@@ -1,6 +1,7 @@
 package intersect;
 
-import common.ArrayDisplayUtil;
+
+import util.ArraysUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +39,7 @@ public class Intersect {
     public static void main(String[] args) {
         int[] nums1 = {4,9,5};
         int[] nums2 = {9,4,9,8,4};
-        ArrayDisplayUtil.arrayDisplay(intersect(nums1, nums2));
+        ArraysUtil.displayIntArray(intersect(nums1, nums2));
     }
 
 }
