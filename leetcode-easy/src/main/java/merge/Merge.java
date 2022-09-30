@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @ClassName: Merge
  * @Author: jiaoxian
  * @Date: 2021/11/3 15:51
- * @Description:
+ * @Description: leetCode-88: 合并两个有序数组、leetCode-面试题 10.01: 合并排序的数组
  */
 public class Merge {
 

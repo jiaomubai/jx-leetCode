@@ -27,7 +27,7 @@ public class NthUglyNumber {
             // 堆顶元素 curr 为当前堆中最小的数
             long curr = heap.poll();
             result = (int) curr;
-            // 堆顶元素 curr 满足条件, 则 curr * 2、curr * 3、k * 5 也是满足条件的, 因此进行入队操作
+            // 堆顶元素 curr 满足条件, 则 curr * 2、curr * 3、curr * 5 也是满足条件的, 因此进行入队操作
             for (int factor : factors) {
                 long next = curr * factor;
                 if (set.add(next)) {
