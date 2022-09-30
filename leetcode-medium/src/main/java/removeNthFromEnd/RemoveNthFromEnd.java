@@ -7,7 +7,7 @@ import java.util.LinkedList;
 
 /**
  * @ClassName: RemoveNthFromEnd
- * @Description: leetCode-19: 删除链表的倒数第 N 个结点
+ * @Description: leetCode-19: 删除链表的倒数第 N 个结点、leetCode-剑指 Offer II 021: 删除链表的倒数第 n 个结点
  * @Author: jiaoxian
  * @Date: 2022/9/13 17:46
  **/
