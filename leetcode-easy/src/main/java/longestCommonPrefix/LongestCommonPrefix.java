@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @ClassName: LongestCommonPrefix
  * @Author: jiaomubai
  * @Date: 2021/9/13 10:08
- * @Description: 最长公共前缀, LeetCode 题库第14题
+ * @Description: LeetCode-14: 最长公共前缀
  */
 public class LongestCommonPrefix {
 

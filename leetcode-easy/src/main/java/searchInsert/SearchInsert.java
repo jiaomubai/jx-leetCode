@@ -4,7 +4,7 @@ package searchInsert;
  * @ClassName: SearchInsert
  * @Author: jiaomubai
  * @Date: 2021/9/14 15:35
- * @Description: 搜索插入位置, LeetCode 题库第35题
+ * @Description: LeetCode-35: 搜索插入位置
  */
 public class SearchInsert {
 
