@@ -1,0 +1,1 @@
+0000000|[Dept.E1111]系统查询不到有效记录|#<?xml version="1.0" encoding="GBK" ?><BankData><opRep><serialNo>425fb0866c85126ff1df</serialNo><errorCode>0000000</errorCode><errorMsg>[Dept.E1111]系统查询不到有效记录</errorMsg><opResult><turnPageTotalNum>0</turnPageTotalNum><list></list></opResult></opRep></BankData>
