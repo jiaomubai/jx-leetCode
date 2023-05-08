@@ -39,5 +39,8 @@
         </dependency>
     </dependencies>
 
+<!--    git config &#45;&#45;global http.sslVerify "false"-->
+
+    <!-- gitHub Token: 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   -->
 
 </project>
