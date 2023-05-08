@@ -1,5 +1,7 @@
 package countHomogenous;
 
+import java.math.BigDecimal;
+
 /**
  * @author jiaoxian
  * @name countHomogenous
@@ -28,8 +30,13 @@ public class CountHomogenous {
     }
 
     public static void main(String[] args) {
-        String s = "zzzzzz";
-        System.out.println(new CountHomogenous().countHomogenous(s));
+//        String s = "zzzzzz";
+//        System.out.println(new CountHomogenous().countHomogenous(s));
+        String string = new BigDecimal(".01").toString();
+        System.out.println(string);
+
+        int len = (int)Math.ceil(Double.parseDouble("25") / (double)10);
+        System.out.println(len);
     }
 
 }
