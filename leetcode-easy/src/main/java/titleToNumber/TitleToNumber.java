@@ -23,7 +23,7 @@ public class TitleToNumber {
     public static void main(String[] args) {
         String columnTitle = "ABCD";
         int result = titleToNumber(columnTitle);
-        log.info("result = {}", result);
+        //log.info("result = {}", result);
     }
 
 

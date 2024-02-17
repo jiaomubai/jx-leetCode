@@ -55,7 +55,7 @@ public class MaximumSwap {
             }
             result = result * 10 + array[i];
         }
-        log.info("result = {}", result);
+        //log.info("result = {}", result);
         return result;
     }
 
@@ -88,7 +88,7 @@ public class MaximumSwap {
         MaximumSwap maximumSwap = new MaximumSwap();
         int num = 95271;
         int result = maximumSwap.maximumSwap2(num);
-        log.info("result = {}", result);
+        //log.info("result = {}", result);
     }
 
 }

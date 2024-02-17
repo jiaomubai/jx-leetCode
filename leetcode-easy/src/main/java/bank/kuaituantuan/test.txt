@@ -1,0 +1,776 @@
+{
+    "status": {
+        "status_code": 0,
+        "status_reason": "OK"
+    },
+    "result": {
+        "common_express": [
+            {
+                "express_company": "圆通速递",
+                "id": 2,
+                "type": 0
+            },
+            {
+                "express_company": "中通速递",
+                "id": 3,
+                "type": 0
+            },
+            {
+                "express_company": "申通快递",
+                "id": 4,
+                "type": 0
+            },
+            {
+                "express_company": "百世快递",
+                "id": 5,
+                "type": 0
+            },
+            {
+                "express_company": "韵达快递",
+                "id": 6,
+                "type": 0
+            },
+            {
+                "express_company": "顺丰速运",
+                "id": 1,
+                "type": 0
+            },
+            {
+                "express_company": "宅急送",
+                "id": 7,
+                "type": 0
+            },
+            {
+                "express_company": "联邦快递",
+                "id": 8,
+                "type": 0
+            },
+            {
+                "express_company": "EMS",
+                "id": 9,
+                "type": 0
+            },
+            {
+                "express_company": "全峰快递",
+                "id": 20,
+                "type": 0
+            },
+            {
+                "express_company": "优速快递",
+                "id": 22,
+                "type": 0
+            },
+            {
+                "express_company": "快捷快递",
+                "id": 23,
+                "type": 0
+            },
+            {
+                "express_company": "德邦",
+                "id": 24,
+                "type": 0
+            },
+            {
+                "express_company": "中国邮政",
+                "id": 25,
+                "type": 0
+            },
+            {
+                "express_company": "微特派",
+                "id": 26,
+                "type": 0
+            },
+            {
+                "express_company": "龙邦速递",
+                "id": 27,
+                "type": 0
+            },
+            {
+                "express_company": "速尔快递",
+                "id": 28,
+                "type": 0
+            },
+            {
+                "express_company": "万象物流",
+                "id": 29,
+                "type": 0
+            },
+            {
+                "express_company": "大洋物流",
+                "id": 30,
+                "type": 0
+            },
+            {
+                "express_company": "DHL（国际件）",
+                "id": 600,
+                "type": 0
+            },
+            {
+                "express_company": "EMS（国际件）",
+                "id": 601,
+                "type": 0
+            },
+            {
+                "express_company": "Fedex（国际件）",
+                "id": 602,
+                "type": 0
+            },
+            {
+                "express_company": "Fedex（美国件）",
+                "id": 603,
+                "type": 0
+            },
+            {
+                "express_company": "Fedex（英国件）",
+                "id": 604,
+                "type": 0
+            },
+            {
+                "express_company": "TNT",
+                "id": 605,
+                "type": 0
+            },
+            {
+                "express_company": "TNT（澳大利亚件）",
+                "id": 606,
+                "type": 0
+            },
+            {
+                "express_company": "TNT（英国件）",
+                "id": 607,
+                "type": 0
+            },
+            {
+                "express_company": "UPS",
+                "id": 608,
+                "type": 0
+            },
+            {
+                "express_company": "USPS",
+                "id": 609,
+                "type": 0
+            },
+            {
+                "express_company": "Skynet",
+                "id": 610,
+                "type": 0
+            },
+            {
+                "express_company": "日本邮政",
+                "id": 611,
+                "type": 0
+            },
+            {
+                "express_company": "韩国邮政",
+                "id": 612,
+                "type": 0
+            },
+            {
+                "express_company": "澳大利亚邮政",
+                "id": 613,
+                "type": 0
+            },
+            {
+                "express_company": "香港邮政",
+                "id": 614,
+                "type": 0
+            },
+            {
+                "express_company": "新加坡邮政大包",
+                "id": 615,
+                "type": 0
+            },
+            {
+                "express_company": "新加坡邮政小包",
+                "id": 616,
+                "type": 0
+            },
+            {
+                "express_company": "英国邮政大包",
+                "id": 617,
+                "type": 0
+            },
+            {
+                "express_company": "英国邮政小包",
+                "id": 618,
+                "type": 0
+            },
+            {
+                "express_company": "马来西亚邮政大包",
+                "id": 619,
+                "type": 0
+            },
+            {
+                "express_company": "马来西亚邮政小包",
+                "id": 620,
+                "type": 0
+            },
+            {
+                "express_company": "新西兰邮政",
+                "id": 621,
+                "type": 0
+            },
+            {
+                "express_company": "国通快递",
+                "id": 38248,
+                "type": 0
+            },
+            {
+                "express_company": "天天快递",
+                "id": 42975,
+                "type": 0
+            },
+            {
+                "express_company": "增益",
+                "id": 260702,
+                "type": 0
+            },
+            {
+                "express_company": "中铁物流",
+                "id": 260703,
+                "type": 0
+            },
+            {
+                "express_company": "中铁快运",
+                "id": 260704,
+                "type": 0
+            },
+            {
+                "express_company": "能达",
+                "id": 260705,
+                "type": 0
+            },
+            {
+                "express_company": "一统飞鸿",
+                "id": 260706,
+                "type": 0
+            },
+            {
+                "express_company": "如风达",
+                "id": 260707,
+                "type": 0
+            },
+            {
+                "express_company": "赛澳递",
+                "id": 260708,
+                "type": 0
+            },
+            {
+                "express_company": "海红网送",
+                "id": 260709,
+                "type": 0
+            },
+            {
+                "express_company": "通和天下",
+                "id": 260710,
+                "type": 0
+            },
+            {
+                "express_company": "郑州建华",
+                "id": 260711,
+                "type": 0
+            },
+            {
+                "express_company": "红马甲",
+                "id": 260712,
+                "type": 0
+            },
+            {
+                "express_company": "芝麻开门",
+                "id": 260713,
+                "type": 0
+            },
+            {
+                "express_company": "乐捷递",
+                "id": 260714,
+                "type": 0
+            },
+            {
+                "express_company": "立即送",
+                "id": 260715,
+                "type": 0
+            },
+            {
+                "express_company": "银捷",
+                "id": 260716,
+                "type": 0
+            },
+            {
+                "express_company": "门对门",
+                "id": 260717,
+                "type": 0
+            },
+            {
+                "express_company": "河北建华",
+                "id": 260718,
+                "type": 0
+            },
+            {
+                "express_company": "风行天下",
+                "id": 260719,
+                "type": 0
+            },
+            {
+                "express_company": "尚橙",
+                "id": 260720,
+                "type": 0
+            },
+            {
+                "express_company": "新蛋奥硕",
+                "id": 260721,
+                "type": 0
+            },
+            {
+                "express_company": "佳吉快运",
+                "id": 301465,
+                "type": 0
+            },
+            {
+                "express_company": "泰国138国际物流",
+                "id": 301466,
+                "type": 0
+            },
+            {
+                "express_company": "程光快递",
+                "id": 301467,
+                "type": 0
+            },
+            {
+                "express_company": "长江国际速递",
+                "id": 301468,
+                "type": 0
+            },
+            {
+                "express_company": "蓝天快递",
+                "id": 301469,
+                "type": 0
+            },
+            {
+                "express_company": "PCA Express",
+                "id": 301470,
+                "type": 0
+            },
+            {
+                "express_company": "邮政快包",
+                "id": 329724,
+                "type": 0
+            },
+            {
+                "express_company": "邮政小包",
+                "id": 341539,
+                "type": 0
+            },
+            {
+                "express_company": "安鲜达",
+                "id": 544780,
+                "type": 0
+            },
+            {
+                "express_company": "方舟速递",
+                "id": 566616,
+                "type": 0
+            },
+            {
+                "express_company": "秦远国际物流",
+                "id": 566617,
+                "type": 0
+            },
+            {
+                "express_company": "安能物流",
+                "id": 576454,
+                "type": 0
+            },
+            {
+                "express_company": "心怡物流",
+                "id": 581394,
+                "type": 0
+            },
+            {
+                "express_company": "远成快运",
+                "id": 581395,
+                "type": 0
+            },
+            {
+                "express_company": "京东快递",
+                "id": 616246,
+                "type": 0
+            },
+            {
+                "express_company": "捷安达国际速递",
+                "id": 618531,
+                "type": 0
+            },
+            {
+                "express_company": "黑狗物流",
+                "id": 620358,
+                "type": 0
+            },
+            {
+                "express_company": "EWE全球快递",
+                "id": 623368,
+                "type": 0
+            },
+            {
+                "express_company": "九曳供应链",
+                "id": 638437,
+                "type": 0
+            },
+            {
+                "express_company": "宅急便",
+                "id": 651663,
+                "type": 0
+            },
+            {
+                "express_company": "全速快递",
+                "id": 654748,
+                "type": 0
+            },
+            {
+                "express_company": "DHL-德国",
+                "id": 659318,
+                "type": 0
+            },
+            {
+                "express_company": "雅澳物流",
+                "id": 660775,
+                "type": 0
+            },
+            {
+                "express_company": "信丰物流",
+                "id": 662589,
+                "type": 0
+            },
+            {
+                "express_company": "跨越速运",
+                "id": 663678,
+                "type": 0
+            },
+            {
+                "express_company": "FQ狂派速递",
+                "id": 665154,
+                "type": 0
+            },
+            {
+                "express_company": "极地快递",
+                "id": 673954,
+                "type": 0
+            },
+            {
+                "express_company": "转运四方",
+                "id": 678065,
+                "type": 0
+            },
+            {
+                "express_company": "澳邮中国快运",
+                "id": 678754,
+                "type": 0
+            },
+            {
+                "express_company": "货运皇",
+                "id": 678759,
+                "type": 0
+            },
+            {
+                "express_company": "美通物流",
+                "id": 683061,
+                "type": 0
+            },
+            {
+                "express_company": "品骏",
+                "id": 684855,
+                "type": 0
+            },
+            {
+                "express_company": "UEQ",
+                "id": 685148,
+                "type": 0
+            },
+            {
+                "express_company": "C&C国际速递",
+                "id": 690153,
+                "type": 0
+            },
+            {
+                "express_company": "富腾达国际",
+                "id": 690159,
+                "type": 0
+            },
+            {
+                "express_company": "易邮国际",
+                "id": 691476,
+                "type": 0
+            },
+            {
+                "express_company": "瑞典邮政",
+                "id": 692140,
+                "type": 0
+            },
+            {
+                "express_company": "百世快运",
+                "id": 694213,
+                "type": 0
+            },
+            {
+                "express_company": "海龟国际快递",
+                "id": 698552,
+                "type": 0
+            },
+            {
+                "express_company": "驭丰速运",
+                "id": 698981,
+                "type": 0
+            },
+            {
+                "express_company": "新顺丰(NSF)",
+                "id": 702719,
+                "type": 0
+            },
+            {
+                "express_company": "联昊通速递",
+                "id": 702784,
+                "type": 0
+            },
+            {
+                "express_company": "易达通快递",
+                "id": 703280,
+                "type": 0
+            },
+            {
+                "express_company": "平安快递EFS",
+                "id": 703281,
+                "type": 0
+            },
+            {
+                "express_company": "新邦物流",
+                "id": 706034,
+                "type": 0
+            },
+            {
+                "express_company": "全一快递",
+                "id": 706273,
+                "type": 0
+            },
+            {
+                "express_company": "晟邦物流",
+                "id": 710568,
+                "type": 0
+            },
+            {
+                "express_company": "特急送",
+                "id": 710688,
+                "type": 0
+            },
+            {
+                "express_company": "安达速递",
+                "id": 711787,
+                "type": 0
+            },
+            {
+                "express_company": "速派快递",
+                "id": 726469,
+                "type": 0
+            },
+            {
+                "express_company": "圆通承诺达",
+                "id": 730694,
+                "type": 0
+            },
+            {
+                "express_company": "中通快运",
+                "id": 731717,
+                "type": 0
+            },
+            {
+                "express_company": "日日顺物流",
+                "id": 735439,
+                "type": 0
+            },
+            {
+                "express_company": "一速递",
+                "id": 735654,
+                "type": 0
+            },
+            {
+                "express_company": "E通",
+                "id": 735666,
+                "type": 0
+            },
+            {
+                "express_company": "锋鸟物流",
+                "id": 736031,
+                "type": 0
+            },
+            {
+                "express_company": "贝海国际速递",
+                "id": 736109,
+                "type": 0
+            },
+            {
+                "express_company": "可可树美中速运",
+                "id": 737987,
+                "type": 0
+            },
+            {
+                "express_company": "安达速递",
+                "id": 742641,
+                "type": 0
+            },
+            {
+                "express_company": "卓志速运",
+                "id": 742642,
+                "type": 0
+            },
+            {
+                "express_company": "中铁快运",
+                "id": 742643,
+                "type": 0
+            },
+            {
+                "express_company": "中通国际",
+                "id": 742644,
+                "type": 0
+            },
+            {
+                "express_company": "极兔速递",
+                "id": 748760,
+                "type": 0
+            },
+            {
+                "express_company": "海带宝",
+                "id": 751001,
+                "type": 0
+            },
+            {
+                "express_company": "明通国际快递",
+                "id": 755771,
+                "type": 0
+            },
+            {
+                "express_company": "众邮快递",
+                "id": 756750,
+                "type": 0
+            },
+            {
+                "express_company": "天地华宇",
+                "id": 756823,
+                "type": 0
+            },
+            {
+                "express_company": "丹鸟",
+                "id": 758632,
+                "type": 0
+            },
+            {
+                "express_company": "苏宁物流",
+                "id": 758712,
+                "type": 0
+            },
+            {
+                "express_company": "大马鹿",
+                "id": 761177,
+                "type": 0
+            },
+            {
+                "express_company": "Highsince海欣斯",
+                "id": 761702,
+                "type": 0
+            },
+            {
+                "express_company": "长江国际速递",
+                "id": 764753,
+                "type": 0
+            },
+            {
+                "express_company": "速递中国",
+                "id": 765224,
+                "type": 0
+            },
+            {
+                "express_company": "大韩通运",
+                "id": 767141,
+                "type": 0
+            },
+            {
+                "express_company": "logen路坚",
+                "id": 767153,
+                "type": 0
+            },
+            {
+                "express_company": "顺心捷达",
+                "id": 768050,
+                "type": 0
+            },
+            {
+                "express_company": "壹米滴答",
+                "id": 768051,
+                "type": 0
+            },
+            {
+                "express_company": "其他",
+                "id": 770593,
+                "type": 0
+            },
+            {
+                "express_company": "安世通快递",
+                "id": 773175,
+                "type": 0
+            },
+            {
+                "express_company": "优邦速运",
+                "id": 776132,
+                "type": 0
+            },
+            {
+                "express_company": "宇鑫物流",
+                "id": 790099,
+                "type": 0
+            },
+            {
+                "express_company": "丰网速运",
+                "id": 790498,
+                "type": 0
+            },
+            {
+                "express_company": "京广速递",
+                "id": 791069,
+                "type": 0
+            },
+            {
+                "express_company": "耀飞同城快递",
+                "id": 792105,
+                "type": 0
+            },
+            {
+                "express_company": "汇森速运",
+                "id": 811402,
+                "type": 0
+            },
+            {
+                "express_company": "京广速递",
+                "id": 812450,
+                "type": 0
+            },
+            {
+                "express_company": "速腾快递",
+                "id": 819228,
+                "type": 0
+            },
+            {
+                "express_company": "平安达腾飞",
+                "id": 825667,
+                "type": 0
+            },
+            {
+                "express_company": "加运美快递",
+                "id": 830859,
+                "type": 0
+            },
+            {
+                "express_company": "韵达快运",
+                "id": 835687,
+                "type": 0
+            }
+        ]
+    },
+    "aeskey_version": 1
+}

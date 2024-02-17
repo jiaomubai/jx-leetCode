@@ -35,7 +35,7 @@ public class MajorityElement {
     }
 
     public static void main(String[] args) {
-        log.info("");
+        //log.info("");
         int[] intArray = {3, 2, 3};
         int result = majorityElement(intArray);
         System.out.println(result);

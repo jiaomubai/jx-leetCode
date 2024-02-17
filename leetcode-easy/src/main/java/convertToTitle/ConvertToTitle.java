@@ -28,7 +28,7 @@ public class ConvertToTitle {
         int columnNumber = 701;
         String result = convertToTitle(columnNumber);
         stopWatch.stop();
-        log.info("result = {}, 耗时:{}ms", result, stopWatch.getTotalTimeMillis());
+        //log.info("result = {}, 耗时:{}ms", result, stopWatch.getTotalTimeMillis());
     }
 
 }

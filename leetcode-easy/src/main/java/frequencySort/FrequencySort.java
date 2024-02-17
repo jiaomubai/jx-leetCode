@@ -1,6 +1,5 @@
 package frequencySort;
 
-import util.ArraysUtil;
 import java.util.*;
 
 /**
@@ -40,7 +39,7 @@ public class FrequencySort {
         FrequencySort frequencySort = new FrequencySort();
         int[] nums = {1, 1, 2, 2, 2, 3, 4, 4, 4};
         int[] result = frequencySort.frequencySort(nums);
-        ArraysUtil.displayIntArray(result);
+//        ArraysUtil.displayIntArray(result);
     }
 
 }

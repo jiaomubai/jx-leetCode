@@ -35,6 +35,6 @@ public class SpecialArray {
         SpecialArray specialArray = new SpecialArray();
         int[] nums = {3, 5};
         int result = specialArray.specialArray(nums);
-        log.info("result = {}", result);
+        //log.info("result = {}", result);
     }
 }
