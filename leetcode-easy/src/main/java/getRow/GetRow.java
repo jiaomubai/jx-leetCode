@@ -9,7 +9,7 @@ import java.util.List;
  * @ClassName: GetRow
  * @Author: jiaoxian
  * @Date: 2021/11/5 16:30
- * @Description: 杨辉三角II
+ * @Description: leetCode-119:杨辉三角II
  */
 public class GetRow {
 

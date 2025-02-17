@@ -16,7 +16,7 @@ import java.util.Map;
 public class MajorityElement {
 
     public static int majorityElement(int[] nums) {
-        Map<Integer, Integer> resultMap = new HashMap<>();
+        Map<Integer, Integer> resultMap = new HashMap<Integer, Integer>();
         for (int element : nums) {
             if (resultMap.containsKey(element)) {
                 int times = resultMap.get(element);
@@ -34,10 +34,29 @@ public class MajorityElement {
         return result;
     }
 
+    public static int majorityElement2(int[] nums) {
+        Map<Integer, Integer> resultMap = new HashMap<>();
+        for (int element : nums) {
+            if (resultMap.containsKey(element)) {
+                int times = resultMap.get(element);
+                resultMap.put(element, times + 1);
+            } else {
+                resultMap.put(element, 1);
+            }
+        }
+        int major = nums.length / 2;
+        int result = -1;
+        for (Integer key : resultMap.keySet()) {
+            if (resultMap.get(key) > major) {
+                result = key;
+            }
+        }
+        return result;
+    }
     public static void main(String[] args) {
         //log.info("");
-        int[] intArray = {3, 2, 3};
-        int result = majorityElement(intArray);
+        int[] intArray = {1, 2, 3};
+        int result = majorityElement2(intArray);
         System.out.println(result);
     }
 

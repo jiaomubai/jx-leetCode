@@ -104,14 +104,14 @@ public class UniqueLetterString {
         stopWatch1.start("一");
         int result = uniqueLetterString.uniqueLetterString(s);
         stopWatch1.stop();
-        log.info("第一种方法耗时:{}ms", stopWatch1.getTotalTimeMillis());
+        //log.info("第一种方法耗时:{}ms", stopWatch1.getTotalTimeMillis());
         stopWatch1.start("二");
         int result2 = uniqueLetterString.uniqueLetterString2(s);
         stopWatch1.stop();
-        log.info("第二种方法耗时:{}ms", stopWatch1.getTotalTimeMillis());
+        //log.info("第二种方法耗时:{}ms", stopWatch1.getTotalTimeMillis());
         System.out.println(stopWatch1.prettyPrint());
-        log.info("字符串: {} 的子串中唯一字符的数量为: {}", s, result);
-        log.info("字符串: {} 的子串中唯一字符的数量为: {}", s, result2);
+        //log.info("字符串: {} 的子串中唯一字符的数量为: {}", s, result);
+        //log.info("字符串: {} 的子串中唯一字符的数量为: {}", s, result2);
     }
 
 }
