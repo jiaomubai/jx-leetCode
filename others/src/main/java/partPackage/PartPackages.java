@@ -64,6 +64,21 @@ public class PartPackages {
     }
 
     public static void main(String[] args) {
+        String content = "";
+        String data = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?><QDBankData><opReq><bsnCode>CBE001</bsnCode><cstNo>1000002883</cstNo><reqTime>20250228093211</reqTime><serialNo>80000000000819452534</serialNo><ReqParam><accountNo>802010200006271</accountNo><currencyType>RMB</currencyType><accountType>D</accountType><ReqReserved1></ReqReserved1><ReqReserved2></ReqReserved2></ReqParam></opReq></QDBankData>";
+        String splitData = "<ReqReserved1>";
+        if (data.contains(splitData)) {
+            int index = data.indexOf(splitData);
+            content = data.substring(0, index) + "<queryFlag>10</queryFlag>" + data.substring(index);
+        } else {
+            content = data;
+        }
+        System.out.println(content);
+
+
+
+
+
         int capacity = 20;
         int[] weights = {4, 8, 3, 6, 5, 4};
         int[] values = {8, 2, 4, 6, 4, 3};
